@@ -1,0 +1,20 @@
+{
+  "name": "marcus_code/liqpay-woocommerce",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "marktanasevich",
+      "email": "mark.tanasevich@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WoocLiqPay\\": "classes/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.5.5"
+  }
+}
